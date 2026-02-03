@@ -125,21 +125,10 @@ const siteConfig = {
     },
   ],
 
-  books: [
-    {
-      title: 'Your Book Title',
-      description: 'Short description of your book or resource.',
-      image: getAsset('images/book_cover_placeholder.png'),
-      link: 'https://example.com/your-book',
-    },
-  ],
-
   contact: {
-    email: 'your.email@example.com',
-    linkedin: 'https://www.linkedin.com/in/your-linkedin/',
-    github: 'https://github.com/your-username',
-    googleScholar: 'https://scholar.google.com/citations?user=YOURID',
-    orcid: 'https://orcid.org/0000-0000-0000-0000',
+    email: 'megandz07@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/megan-anriya-dcruz-mnsk070711/',
+    github: 'https://github.com/Megan-dz',
   },
 };
 
