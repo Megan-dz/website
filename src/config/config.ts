@@ -6,53 +6,40 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Megan D cruz',
-    title: 'Bsc Eco',
+    name: 'Megan Dcruz',
+    title: 'Undergraduate Student',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'A first year Economics and Data Science major who loves exploring the role of data in economics.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
-      '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
+      'Christ University\n' +
       '\n' +
       'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+    tagline: 'Exploring economics through data analytics.',
+    location: 'Bangalore, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
+    title: 'Megan Dcruz – Undergraduate Student',
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Economics student', 'Data analytics enthusiast', 'Christ University'],
 
   navigation: [
     { name: 'Home', url: '/' },
     { name: 'Projects', url: '/projects' },
-    { name: 'Research', url: '/research' },
     { name: 'Education', url: '/education' },
-    { name: 'Experience', url: '/experience' },
-    { name: 'Blogs', url: '/blogs' },
+    { name: 'Experience', url: '/experience' }, 
     { name: 'Resume', url: '/resume' },
     { name: 'Contact', url: '/contact' },
-  ],
-
-  // Static blog entries. Use getAsset so the URL respects NEXT_PUBLIC_BASE_PATH / next.config.basePath
-  // Add more entries here as you add more static HTML blog files under public/static_page/
-  blogs: [
-    {
-      title: 'Your Blog Title',
-      url: getAsset('static_page/project_management_blog.html'), // Replace with your static HTML page
-    },
   ],
 
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
+      institution: 'Christ university',
+      degree: 'Bachelor of Science in Economics with Data Science',
       year: 'YYYY–YYYY',
       image: getAsset('images/education/placeholder.png'),
       description: ['Brief description of your focus or thesis'],
