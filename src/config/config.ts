@@ -8,7 +8,7 @@ const siteConfig = {
   personal: {
     name: 'Megan Dcruz',
     title: 'Undergraduate Student',
-    image: getAsset('images/profile.png'), // Customize or replace with your profile image
+    image: getAsset('images/Resume_Pic(1).png'), // Customize or replace with your profile image
     description:
       'A first year Economics and Data Science major who loves exploring the role of data in economics.\n' +
       '\n' +
